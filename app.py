@@ -1,16 +1,6 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
-import math
-import pandas as pd
-import h5py
-import matplotlib.pyplot as plt
-import tensorflow as tf
-from tensorflow.python.framework import ops
-import pickle
-import keras
-from keras.models import Sequential
-from keras.layers import Dense
 
 global graph
 graph = tf.get_default_graph() 
